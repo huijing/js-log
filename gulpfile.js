@@ -36,7 +36,7 @@ function stylesProd() {
  * Compile files from js
  */
 function scripts() { 
-  return gulp.src(['js/*.js', 'js/custom.js'])
+  return gulp.src(['js/displayConsole.js', 'js/custom.js'])
     .pipe(babel({
       'presets': [ '@babel/preset-env' ]
     }))
